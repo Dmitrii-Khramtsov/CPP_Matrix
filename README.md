@@ -20,8 +20,6 @@ Implementation of a library for working with matrices using an object-oriented a
 ## Matrix operations
 
 Below is a brief description of the matrix operations that need to be implemented in the development library.
-They are similar to the operations you performed earlier in "Structured Programming", so you can see a more detailed description of them there.
-Note that some operations have exceptional situations that require special handling using the exception mechanism.
 
 | Operation | Description | Exceptional situations |
 | ----------- | ----------- | ----------- |
@@ -35,7 +33,7 @@ Note that some operations have exceptional situations that require special handl
 | `double Determinant()` | Calculates and returns the determinant of the current matrix. | The matrix is not square. |
 | `S21Matrix InverseMatrix()` | Calculates and returns the inverse matrix. | Matrix determinant is 0. |
 
-Apart from those operations, you also need to implement constructors and destructors:
+In addition to implementing these operations, constructors and destructors are implemented:
 
 | Method | Description |
 | ----------- | ----------- |
@@ -45,7 +43,7 @@ Apart from those operations, you also need to implement constructors and destruc
 | `S21Matrix(S21Matrix&& other)` | Move constructor. |
 | `~S21Matrix()` | Destructor. |
 
-And you also need to overload the following operators, partly corresponding to the operations above:
+And the following operators are overloaded, partially corresponding to the operations above:
 
 | Operator | Description | Exceptional situations |
 | ----------- | ----------- | ----------- |
