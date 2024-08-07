@@ -5,8 +5,9 @@ A solo project in which I implemented a library for working with matrices.
 ## Contents
 
 1. [Introduction](#introduction)
-2. [Build](#build)
-3. [Tests](#tests)
+2. [Matrix operations](#matrix-operations)
+3. [Build](#build)
+4. [Tests](#tests)
 
 
 ## Introduction
