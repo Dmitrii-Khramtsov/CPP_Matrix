@@ -1,9 +1,6 @@
 # CPP_Matrix
 
-Methods of the CPP_Matrix project,
-which implements a library for working with matrices.
-
-
+A solo project in which I implemented a library for working with matrices.
 
 ## Contents
 
@@ -62,7 +59,7 @@ And the following operators are overloaded, partially corresponding to the opera
 ```
 $ git clone git@github.com:Dmitrii-Khramtsov/CPP_Matrix.git
 $ cd CPP_Matrix/src
-$ make
+$ make all
 ```
 
 
